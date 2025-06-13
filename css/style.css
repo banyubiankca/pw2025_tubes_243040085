@@ -1,0 +1,298 @@
+
+    @font-face {
+    font-family: 'Miskan';
+    src: url('font/Miskan.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: 'GeosansLight';
+    src: url('font/GeosansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    body {
+      background-image: url('../img/bgweb.jpeg');
+      color:rgb(255, 255, 255); 
+      font-family: 'Roboto', sans-serif; 
+    }
+    .navbar {
+        background-color:rgb(36, 35, 35); 
+    }
+
+    .navbar-brand, .nav-link {
+        color:rgb(255, 255, 255) !important;
+    }
+
+    .navbar-brand:hover, .nav-link:hover {
+        color:rgb(255, 0, 0) !important; 
+    }
+    header {
+      background-color:#2d2d2d; 
+    }
+
+    header h1, header p {
+        color: #ffffff; 
+    }
+
+    footer {
+        background-color: #111111; 
+    }
+
+    .miskan{
+      font-family: 'Miskan';
+      color:white;
+    }
+
+    .geosan{
+      font-family: 'GeosansLight';
+      color:white;
+      font-size:25px;
+    }
+
+    .geosan-link {
+      font-family: 'GeosansLight';
+      font-size:17px;
+    }
+
+    .font{
+      font-size: 20px;
+    }
+
+    .text-menu {
+      font-size:20px;
+    }
+
+    .table-menu {
+      text-align: center;
+    }
+
+    .uk-judul{
+      font-size:23px;
+    }
+
+    .uk-mm {
+      font-size: 24px;
+      color:black;
+    }
+
+    .uk-mn {
+      font-size: 19px;
+      color:black;
+    }
+
+    .uk-mo{
+      font-size:19px;
+      color:white;
+    }
+
+    .uk-dt{
+      font-size:20px;
+      color:black;
+    }
+
+    .posisi{
+      text-align: center;
+    }
+
+    .box:hover{
+      background-color: #fff;
+      border: 2px solid rgb(255, 0, 0); 
+      box-shadow: 0 0 27px rgb(252, 74, 74); 
+      transition: box-shadow 0.1s ease;
+   
+    }
+
+    .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: rgb(36, 35, 35);
+    backdrop-filter: blur(10px);
+    }
+
+    .footer .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: #000;
+    }
+
+    .footer .social a{
+        font-size: 25px;
+        color: #000;
+        border: 2px solid rgb(255, 255, 255);
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .footer .social a:hover{
+        transform: scale(1.2) translateY(10px);
+        background-color: #000000;
+        color: rgb(255, 0, 0);
+        box-shadow: 0 0 27px rgb(252, 74, 74);
+    }
+
+    .footer ul{
+        margin-top: 0;
+        padding: 0;
+        font-size: 10px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer ul li a{
+        color: rgb(0, 0, 0);
+        border-bottom: 3 px solid transparent;
+        transition: 0.3s ease-in-out;
+        font-size: 15px;
+    }
+
+    .footer ul li a:hover{
+        color: rgb(255, 0, 0);
+        border-bottom: 0 0 27px rgb(252, 74, 74);
+    }
+
+    .footer ul li{
+        display: inline-block;
+        padding: 0 15px;
+    }
+
+    .footer .copyright{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 16px;
+        color: #000;
+    }
+
+    .fa-instagram{
+        margin-top:5px;
+    }
+
+    .fa-tiktok{
+        margin-top:5px;
+    }
+
+    .fa-github{
+        margin-top:5px;
+    }
+
+    .fa-facebook{
+        margin-top:5px;
+    }
+
+    .btn-primary {
+        background-color:rgb(36, 35, 35);
+        border-color: #000000;
+    }
+
+    .btn-primary:hover {
+        background-color: rgb(255, 0, 0);
+        border-color:rgb(255, 0, 0);
+    }
+    
+    .CL{
+        color: black;
+    }
+
+    .warna-tambah{
+      font-size: 18px;
+    }
+
+    .uk-src{
+      font-size:18px;
+    }
+
+    /* detail */
+
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .full-center {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .detail-card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 250px;
+      width: 100%;
+    }
+
+    .detail-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .back-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .btn-primary {
+        background-color:rgb(36, 35, 35);
+        border-color: #000000;
+    }
+
+    .btn-primary:hover {
+        background-color: rgb(255, 0, 0);
+        border-color:rgb(255, 0, 0);
+    }
+    
+    .butlog{
+        width: 100px;
+        margin: 15px auto;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        padding:5px;
+        cursor: pointer; 
+        
+    }
+
+    .login-box {
+        width: 400px;
+        background-color: rgb(36, 35, 35);
+        color: white;
+        padding: 30px;
+        margin: 100px auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .menu-login {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+        margin-bottom: 15px;
+        display: block;
+        align-items: center;
+      
+    }
+
+    .username-field {
+        background-color: #ffffff;
+        border: 2px solid #00aaff;
+        padding: 8px;
+        width: 250px;
+        border-radius: 5px;
+    }
+  
